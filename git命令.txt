@@ -41,3 +41,15 @@ git文件状态：
 			如果对Unmodified状态的文件进行remove操作-->Untracked
 			
 
+
+git分支命令：
+			git branch 分支名       #创建分支
+			git branch              #不加如何参数，列表出所有分支，分支前面有*号，代表该分支为当前所在分支
+			* 创建分支的时候，分支名不要使用特殊符号
+			git branch -d 分支名    #删除分支
+			*不能删除当前所在分支
+			git branch -m 旧分支名 新分支名  #修改分支名
+			
+
+			
+
